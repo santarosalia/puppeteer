@@ -1,0 +1,25 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "tsc && mocha --config .mocharc.json"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/chrome": "^0.0.253",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.9.4",
+    "@types/puppeteer": "^7.0.4",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "puppeteer": "^21.5.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
